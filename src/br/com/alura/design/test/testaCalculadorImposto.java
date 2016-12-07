@@ -1,8 +1,8 @@
 package br.com.alura.design.test;
 
-import br.com.alura.design.impl.CalculadorDeImpostos;
-import br.com.alura.design.impl.ICMS;
-import br.com.alura.design.impl.ISS;
+import br.com.alura.design.imposto.impl.CalculadorDeImpostos;
+import br.com.alura.design.imposto.impl.ICMS;
+import br.com.alura.design.imposto.impl.ISS;
 import br.com.alura.design.interfaces.Imposto;
 import br.com.alura.design.model.Orcamento;
 
