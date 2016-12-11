@@ -1,4 +1,4 @@
-package br.com.alura.design.imposto.impl;
+package br.com.alura.design.investimento.impl;
 
 import br.com.alura.design.interfaces.Investimento;
 import br.com.alura.design.model.Orcamento;
