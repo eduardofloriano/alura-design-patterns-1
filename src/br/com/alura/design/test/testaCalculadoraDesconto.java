@@ -12,13 +12,9 @@ public class testaCalculadoraDesconto {
 	public static void main(String[] args) {
 		CalculadoraDeDesconto descontos = new CalculadoraDeDesconto();
 		
-		Orcamento orcamento = new Orcamento(500.0);
+		Orcamento orcamento = new Orcamento(400.0);
 		List<Item> itens = new ArrayList<Item>();
 		itens.add(new Item("CANETA", 250.0));
-		itens.add(new Item("LAPIS", 250.0));
-		itens.add(new Item("LAPIS", 250.0));
-		itens.add(new Item("LAPIS", 250.0));
-		itens.add(new Item("LAPIS", 250.0));
 		itens.add(new Item("LAPIS", 250.0));
 		orcamento.setItens(itens);
 		

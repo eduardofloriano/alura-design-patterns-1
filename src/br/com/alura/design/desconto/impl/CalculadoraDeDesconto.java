@@ -9,10 +9,12 @@ public class CalculadoraDeDesconto {
 		
 		Desconto d1 = new DescontoPorQuantidadeItens();
 		Desconto d2 = new DescontoPorValor();
-		Desconto d3 = new SemDesconto();
+		Desconto d3 = new DescontoPorVendaCasada();
+		Desconto df = new SemDesconto();
 		
 		d1.proximoDesconto(d2);
 		d2.proximoDesconto(d3);
+		d3.proximoDesconto(df);
 		
 		return d1.aplicaDesconto(orcamento);
 		
