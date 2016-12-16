@@ -1,7 +1,5 @@
 package br.com.alura.design.model;
 
-import br.com.alura.design.enums.FormatoEnum;
-
 public class Conta {
 
 	private String titular;

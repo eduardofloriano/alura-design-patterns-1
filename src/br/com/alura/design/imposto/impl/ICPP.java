@@ -1,7 +1,7 @@
 package br.com.alura.design.imposto.impl;
 
-import br.com.alura.design.imposto.template.TemplateImpostoCondicional;
 import br.com.alura.design.model.Orcamento;
+import br.com.alura.design.template.TemplateImpostoCondicional;
 
 public class ICPP extends TemplateImpostoCondicional{
 

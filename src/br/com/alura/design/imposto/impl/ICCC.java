@@ -3,8 +3,16 @@ package br.com.alura.design.imposto.impl;
 import br.com.alura.design.interfaces.Imposto;
 import br.com.alura.design.model.Orcamento;
 
-public class ICCC implements Imposto{
+public class ICCC extends Imposto{
 
+	public ICCC(Imposto outroImposto){
+		super(outroImposto);
+	}
+	
+	public ICCC(){
+		
+	}
+	
 	@Override
 	public double calcula(Orcamento orcamento) {
 		
@@ -18,7 +26,7 @@ public class ICCC implements Imposto{
 			valor = valor * 0.8 + 30.0;
 		}
 		
-		return valor;
+		return valor + calculaOutroImposto(orcamento);
 	}
 
 }
